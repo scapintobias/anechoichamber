@@ -1,4 +1,4 @@
-![Header](assets/logo.png)
+![Header](Assets/logo.png)
 
 # About
 
