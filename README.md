@@ -19,7 +19,7 @@ The theme we chose is the **anechoic chamber**, a room covered with audio-absorb
 
 # Developement
 To create the room, we designed it as a background image in Cinema4D.
-To code the app we mostly used Javascript (with [p5.js](https://p5js.org/))—thoroughly the background image function—and in support to it we also used HTML and CSS.
+To code the app we mostly used Javascript (with [p5.js](https://p5js.org/))—relying thoroughly the background image function—and in support to it we also used HTML and CSS.
 
 The following examples were written using this library.
 ## **Create the room**
