@@ -18,7 +18,7 @@
 The theme we chose is the **anechoic chamber**, a room covered with audio-absorbent material, able to gain a level of silence below 0db. The user has the chance to take an experience otherwise impossible without having access to one of these chambers, which are very expensive to build, not many around the world, and quite difficult to have access to.
 
 # Developement
-To create the room, we designed it as a background image in Cinema4D.
+To create the room, we designed it as a background image in Cinema4D.<br>
 To code the app we mostly used Javascript (with [p5.js](https://p5js.org/))—relying thoroughly on the background image function—and in support to it we also used HTML and CSS.
 
 The following examples were written using this library.
