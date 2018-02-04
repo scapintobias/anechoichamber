@@ -271,4 +271,4 @@ The second challenge was to find or to create appropriate sounds to convey the a
 * Tobia Scapin
 
 ### And you, do you know what sounds your body really makes?
-Share this on social media if you managed to resist till the end, using the hashtag **#anechoicamber**
+Share this on social media if you managed to resist till the end, using the hashtag **#anechoichamber**
