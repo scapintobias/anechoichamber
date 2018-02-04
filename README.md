@@ -1,4 +1,4 @@
-![Header](logo.png)
+![Header](assets/logo.png)
 
 # About
 
@@ -28,7 +28,7 @@ The following examples were written using this library.
 
 * **Lungs**
 
-![Lungs](lungs.gif)
+![Lungs](assets/lungs.gif)
 
 ```
 function Breath() {
@@ -48,7 +48,7 @@ function Breath() {
 
 * **Heart**
 
-![Heart](heart.gif)
+![Heart](assets/heart.gif)
 
 ```
 function Heartbeat() {
@@ -66,7 +66,7 @@ function Heartbeat() {
 ```
 * **Gnash**
 
-![Gnash](gnash.gif)
+![Gnash](assets/gnash.gif)
 
 ```
 function Gnash() {
@@ -95,7 +95,7 @@ function Gnash() {
 
 * **Skin**
 
-![Skin](skin.gif)
+![Skin](assets/skin.gif)
 
 ```
 function Skin() {
@@ -123,7 +123,7 @@ function polygon(x, y, radius, npoints) {
 ```
 * **Stomach**
 
-![Stomach](stomach.gif)
+![Stomach](assets/stomach.gif)
 
 ```
 function Stomach() {
@@ -145,7 +145,7 @@ function Stomach() {
 
 * **Joints**
 
-![Joints](joints.gif)
+![Joints](assets/joints.gif)
 
 ```
 function Joint() {
@@ -172,7 +172,7 @@ function Joint() {
 
 * **Blood**
 
-![Blood](blood.gif)
+![Blood](assets/blood.gif)
 
 ```
 function fblood() {
@@ -235,7 +235,7 @@ function fblood() {
 
 * **Brain**
 
-![Brain](brain.gif)
+![Brain](assets/brain.gif)
 
 ```
 function Brain() {
