@@ -187,59 +187,26 @@ function Joint() {
 ```
 function fblood() {
   
-  var volumeblood = analyser5.getLevel()*20000;
-  ssss++
-  s = ssss+volumeblood
-  s1 = s*0.9
-  
-  background(0)
-  image(traccia,0,170)
+  var vol7 = analyser7.getLevel()*4000;
   
   fill(255)
   noStroke()
+  
+  ssss++
+  A=1
+  B=1
+  for(i=0; i<40; i++){
+   particella(A++,20+B--)
+  }
+  if(vol7===0){ssss=0}
+  function particella(x,y){
+  s = ssss+vol7*x
   push()
   translate(s,height/2)
-  rotate(s)
-  ellipse(s/3,0,20)
+  rotate(s/90)
+  ellipse(s/3,0,y)
   pop()
-  
-  
-  s2 = ssss+volumeblood*2
-
-  push()
-  translate(s2,height/2)
-  rotate(s2)
-  ellipse(s2/3,0,20)
-  pop()
-  
-  
-  s3 = ssss+volumeblood*3
-
-  push()
-  translate(s3,height/2)
-  rotate(s3)
-  ellipse(s3/3,0,10)
-  pop()
-  
-  s4 = ssss+volumeblood*4
-
-  push()
-  translate(s4,height/2)
-  rotate(s4)
-  ellipse(s4/3,0,10)
-  pop()
-  
-  s5 = ssss+volumeblood*5
-
-  push()
-  translate(s5,height/2)
-  rotate(s5)
-  ellipse(s5/3,0,10)
-  pop()
-
-
-  if(volumeblood===0){ssss=0}
-  
+}
 }
 ```
 
