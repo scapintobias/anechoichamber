@@ -267,7 +267,7 @@ function Heartbeat() {
    }
    
    
-  if ((avanzamento>5)&&(codice!=3)&&(codice!=6)&&(codice!=7)&&(codice!=8)&&(codice!=9)&&(codice!=10)&&(keyIsPressed === true)) {push(); fill(255); noStroke(); text('Keep holding B',width/2,windowHeight-35); pop()}
+  if ((avanzamento>5)&&(avanzamento<8)&&(codice!=3)&&(codice!=6)&&(codice!=7)&&(codice!=8)&&(codice!=9)&&(codice!=10)&&(keyIsPressed === true)) {push(); fill(255); noStroke(); text('Keep holding B',width/2,windowHeight-35); pop()}
 
    
   } 
