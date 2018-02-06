@@ -21,6 +21,7 @@ To create the room, we designed it as a background image in Cinema4D.<br>
 To code the app we mostly used Javascript (with [p5.js](https://p5js.org/))—relying thoroughly on the background image function—and in support to it we also used HTML and CSS.
 
 The following examples were written using this library.
+
 ## **Create the room**
 
 ![cinema](Assets/render.gif)
