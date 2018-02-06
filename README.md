@@ -286,13 +286,24 @@ function Brain() {
 
 ## Keys interaction
 
+![Keys](Assets/brain.gif)
 
+```
+{
+function aa()     {if (key === 'a') {a=1}}
+function bb()     {if (key === 'b') {b=2}}
+function cc()     {if (key === 'c') {c=3}}
+function dd()     {if (key === 'd') {c=4}}
+function ee()     {if (key === 'e') {c=5}}
+function ff()     {if (key === 'f') {c=6}}
+function gg()     {if (key === 'g') {c=7}}
+function hh()     {if (key === 'h') {c=8}}
+}
+```
 
 ## Challenges
 The main challenge was to develop a coherent interaction, therefore we had to code a whole sequence for keeping track of the many keys pressed together. 
 The second challenge was to find or to create appropriate sounds to convey the actual experience of a true chamber. Finally, when we finished all the different animations, another issue began when we had to put it all together.
-
-## Rules of the game
 
 # Team
 **ANECHOICHAMBER** is developed by:
