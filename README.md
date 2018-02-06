@@ -26,7 +26,6 @@ The following examples were written using this library.
 
 ![cinema](Assets/render.gif)
 
-## **Create animation**
 * **Room movement**
 
 ![Room movement](Assets/movement.gif)
@@ -34,6 +33,9 @@ The following examples were written using this library.
 * **Blink**
 
 ![Blink](Assets/blink.gif)
+
+## **Create animation**
+
 * **Lungs**
 
 ![Lungs](Assets/lungs.gif)
