@@ -22,13 +22,16 @@ To code the app we mostly used Javascript (with [p5.js](https://p5js.org/))—re
 
 The following examples were written using this library.
 ## **Create the room**
+
 ![cinema](Assets/render.gif)
 
 ## **Create animation**
 * **Room movement**
+
 ![Room movement](Assets/movement.gif)
 
 * **Blink**
+
 ![Blink](Assets/blink.gif)
 * **Lungs**
 
