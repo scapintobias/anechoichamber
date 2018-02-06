@@ -10,7 +10,6 @@
 - [Developement](#developement)
 - [Keys interaction](#keys-interaction)
 - [Challenges](#challenges)
-- [Rules of the game](rules)
 - [Team](#team)
 
 # Project idea
@@ -26,7 +25,11 @@ The following examples were written using this library.
 ![cinema](Assets/render.gif)
 
 ## **Create animation**
+* **Room movement**
+![Room movement](Assets/movement.gif)
 
+* **Blink**
+![Blink](Assets/blink.gif)
 * **Lungs**
 
 ![Lungs](Assets/lungs.gif)
