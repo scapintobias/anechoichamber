@@ -269,16 +269,31 @@ function Blood() {
 
 ```
 function Brain() {
-   noFill();
-   stroke(255);
-   var spectrum = fft.analyze();
+  
+  if ((codice ===10)&&(avanzamento>20)) {braindiff+=0.01/2} else {if(braindiff<=0){braindiff=0} else {braindiff=braindiff-0.025 } }
 
+  
+  brain.setVolume(0.02+braindiff+avanzamento/15+loser)
+
+  
+  if (keyIsPressed === false) {noFill(); noStroke()} else{
+   noFill();
+   stroke(255,255,255,braindiff*200);
+   push()
+   translate(0,height/2);
+   scale(1.6,1)
+   
+   if (avanzamento>23){spess++}else{spess=1}
+   strokeWeight(spess)
+   
+   var spectrum = fft.analyze();
    beginShape();
    for (i = 0; i<spectrum.length; i++) {
    vertex(i, map(spectrum[i]*3, 0, 255, height/2, 0));
    }
    endShape();
-   
+   pop()
+  }
 }
 
 ```
