@@ -1,4 +1,4 @@
-![Header](Assets/logo.png)
+![Header](img/logo.png)
 
 # About
 
@@ -24,11 +24,11 @@ The following examples were written using this library.
 
 ## **Create the room**
 
-![cinema](Assets/render.gif)
+![cinema](img/render.gif)
 
 * **Room movement**
 
-![Room movement](Assets/movement.gif)
+![Room movement](img/movement.gif)
 
 ```
 {background(0)
@@ -46,7 +46,7 @@ The following examples were written using this library.
 ```
 * **Blink**
 
-![Blink](Assets/blink.gif)
+![Blink](img/blink.gif)
 
 ```
 function blink(){
@@ -72,7 +72,7 @@ function blink(){
 
 * **Lungs**
 
-![Lungs](Assets/lungs.gif)
+![Lungs](img/lungs.gif)
 
 ```
 function Breath() {
@@ -106,7 +106,7 @@ function Breath() {
 
 * **Heart**
 
-![Heart](Assets/heart.gif)
+![Heart](img/heart.gif)
 
 ```
 function Heartbeat() {
@@ -124,7 +124,7 @@ function Heartbeat() {
 ```
 * **Gnash**
 
-![Gnash](Assets/gnash.gif)
+![Gnash](img/gnash.gif)
 
 ```
 function Gnash() {
@@ -153,7 +153,7 @@ function Gnash() {
 
 * **Skin**
 
-![Skin](Assets/skin.gif)
+![Skin](img/skin.gif)
 
 ```
 function Skin() {
@@ -181,7 +181,7 @@ function polygon(x, y, radius, npoints) {
 ```
 * **Stomach**
 
-![Stomach](Assets/stomach.gif)
+![Stomach](img/stomach.gif)
 
 ```
 function Stomach() {
@@ -203,7 +203,7 @@ function Stomach() {
 
 * **Joints**
 
-![Joints](Assets/joints.gif)
+![Joints](img/joints.gif)
 
 ```
 function Joint() {
@@ -230,7 +230,7 @@ function Joint() {
 
 * **Blood**
 
-![Blood](Assets/blood.gif)
+![Blood](img/blood.gif)
 
 ```
 function Blood() {
@@ -265,7 +265,7 @@ function Blood() {
 
 * **Brain**
 
-![Brain](Assets/brain.gif)
+![Brain](img/brain.gif)
 
 ```
 function Brain() {
@@ -286,7 +286,7 @@ function Brain() {
 
 ## Keys interaction
 
-![Keys](Assets/keys.gif)
+![Keys](img/keys.gif)
 
 ```
 {
