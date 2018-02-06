@@ -30,10 +30,44 @@ The following examples were written using this library.
 
 ![Room movement](Assets/movement.gif)
 
+```
+{background(0)
+  x1=mouseX/30
+  y1=mouseY/30
+  push()
+  translate(-x1,-y1)
+  scale(1.04,1.04)
+  backgroundImage(camera1)
+  
+  start()
+  
+  image(splashscreen,windowWidth/2-((windowWidth/1.5)/2),windowHeight/2-((windowWidth/2.8)/2),windowWidth/1.5,windowWidth/2.8) 
+  pop()}
+```
 * **Blink**
 
 ![Blink](Assets/blink.gif)
 
+```
+function blink(){
+  noStroke()
+  fill(0)
+  if (keyIsPressed === true) {
+
+  var1+=35
+  rect(0,-windowHeight/2+var1-35,windowWidth,windowHeight/2)
+  if (var1 > windowHeight/2+1){
+  var1=windowHeight/2+1;
+  }} else {
+  
+    
+  var1-=35
+  rect(0,-windowHeight/2+var1-35,windowWidth,windowHeight/2)
+  if (var1 < 0){
+  var1=0;
+  }} 
+}
+```
 ## **Create animation**
 
 * **Lungs**
@@ -185,13 +219,19 @@ function Joint() {
 ![Blood](Assets/blood.gif)
 
 ```
-function fblood() {
+function Blood() {
   
   var vol7 = analyser7.getLevel()*4000;
   
-  fill(255)
-  noStroke()
+  if ((codice ===9)&&(avanzamento>17)) {blooddiff+=0.01/2} else {if(blooddiff<=0){blooddiff=0} else {blooddiff=blooddiff-0.025 } }
   
+  
+  blood.setVolume(0.02+blooddiff+avanzamento/15+loser)
+
+  if (keyIsPressed === false) {noFill(); noStroke()} else{
+  
+  fill(255,255,255,blooddiff*200)
+  noStroke()
   ssss++
   A=1
   B=1
@@ -205,8 +245,7 @@ function fblood() {
   translate(s,height/2)
   rotate(s/90)
   ellipse(s/3,0,y)
-  pop()
-}
+  pop()}
 }
 ```
 
