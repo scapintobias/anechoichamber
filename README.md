@@ -286,7 +286,7 @@ function Brain() {
 
 ## Keys interaction
 
-![Keys](Assets/brain.gif)
+![Keys](Assets/keys.gif)
 
 ```
 {
