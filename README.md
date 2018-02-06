@@ -76,15 +76,29 @@ function blink(){
 
 ```
 function Breath() {
-   var vol1 = analyser1.getLevel();
-   noFill();
-   stroke(255);
-   strokeWeight(10);
-   line(width/2,height/2-200-vol1*800,width/2,height/2+200-vol1*800);
+  
+   var vol1 = analyser1.getLevel()*2;
+   
+   
+  if ((codice ===0)&&(keyIsPressed === true)) {breathdiff+=0.01/2} else {if(breathdiff<=0){breathdiff=0} else {breathdiff=breathdiff-0.025 } }
 
+
+   breath.setVolume(0.2+breathdiff+avanzamento/15+loser)
+   
+   push()
+   noFill();
+   if (keyIsPressed === false) {noStroke()} else {
+   stroke(255,255,255,breathdiff*200)
+   strokeWeight(10);
+   line(width/2,height/2-200-vol1*200,width/2,height/2+200-vol1*800);
    strokeWeight(1);
-   quad(width/2-15,height/2+300+vol1*300,width/2-250-vol1*500,height/2+300+vol1*300,width/2-150-vol1*500,height/2-120-vol1*300,width/2-15,height/2-120-vol1*300);
-   quad(width/2+15,height/2+300+vol1*300,width/2+250+vol1*500,height/2+300+vol1*300,width/2+150+vol1*500,height/2-120-vol1*300,width/2+15,height/2-120-vol1*300);
+   quad(width/2-15,height/2+270+vol1*10,width/2-100-vol1*500,height/2+230+vol1*100,width/2-50-vol1*500,height/2-50-vol1*100,width/2-15,height/2-120-vol1*10);
+   quad(width/2+15,height/2+270+vol1*10,width/2+100+vol1*500,height/2+230+vol1*100,width/2+50+vol1*500,height/2-50-vol1*100,width/2+15,height/2-120-vol1*10);
+   pop()
+   }
+
+   if ((avanzamento>2)&&(codice!=1)&&(codice!=3)&&(avanzamento<5)&&(keyIsPressed === true)) {push(); fill(255); noStroke(); text('Keep holding A',width/2,windowHeight-35); pop()}
+
 
 }
 ```
